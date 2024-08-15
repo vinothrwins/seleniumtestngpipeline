@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sanity Suite">
+  <test name="Register Demo Flow">
+    <classes>
+      <class name="com.qaautomation.registerdemo.RegisterDemoFlow"/>
+    </classes>
+  </test> <!-- Register Demo Flow -->
+</suite> <!-- Sanity Suite -->
