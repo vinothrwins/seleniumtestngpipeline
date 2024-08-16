@@ -61,7 +61,9 @@ public class RegisterDemoFlow {
 
 	@Test(priority = 1)
 	public void launchApplication() {	
-
+		
+		System.out.println("CI CT Pipeline Started");
+		
 	    // Get the base URL from the system properties
         baseUrl = System.getProperty("baseUrl", "https://vinothqaacademy.com/demo-site/");
         
