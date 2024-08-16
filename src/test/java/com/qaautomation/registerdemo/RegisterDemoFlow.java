@@ -73,10 +73,10 @@ public class RegisterDemoFlow {
 
 		// Launch the application
 		driver.get(baseUrl);
-
+		System.out.println("Url used for testing is "+ baseUrl);
+		
 		// Maximize the window
 		driver.manage().window().maximize();
-		System.out.println();
 		System.out.println("Application is launched successfully");
 		
 
