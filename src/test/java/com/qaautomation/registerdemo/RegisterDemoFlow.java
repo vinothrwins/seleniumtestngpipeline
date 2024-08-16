@@ -69,7 +69,7 @@ public class RegisterDemoFlow {
 		driver = new ChromeDriver();
 
 		// implicity wait 
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(0));
 
 		// Launch the application
 		driver.get(baseUrl);
