@@ -19,7 +19,7 @@ public class RegisterDemoFlow {
 	// Parameterize all the Input Values
 	String formTitleValue = "Register For Demo";
 	String firstNameValue = "Vinoth";
-	String lastNameValue = "Rathinam";
+	String lastNameValue = "R";
 	String genderValue = "Male";  // Male or Female or Other	
 	String streetAddressValue = "Saravana Flats";
 	String aptBuildingValue = "S1";
